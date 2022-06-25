@@ -1,0 +1,195 @@
+/* основний колір тексту #757575*/
+/* колір заголовків #212121 */
+/* другорядний колір заголовків #2196F3 */
+/* колір герой #FFFFFF */
+
+/* font family: Raleway;
+        font style: Bold; 
+        font size: 26px; 
+        line height: 31px; 
+        line height: 100%; 
+        align: Left; 
+        vertical-align: Top; 
+        letter-spacing: 3% */
+
+:root {
+  --primary-color: #757575;
+  --title-color: #212121;
+  --secondary-title-color: #2196f3;
+  --hero-color: #ffffff;
+  --portfolio-color: #212121;
+  --logo-color: #000000;
+  --background-color: #2f303a;
+}
+
+body {
+  background-color: var(--hero-color);
+  color: var(--primary-color);
+  font-family: Roboto, 'Times New Roman', Times, sans-serif;
+}
+
+li {
+  list-style-type: none;
+}
+
+.body-portfolio {
+  color: var(--portfolio-color);
+}
+
+/* Стилізація хедеру */
+.contacts-link {
+  color: var(--primary-color);
+  font-family: Roboto;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  text-decoration: none;
+}
+.contacts-link:hover,
+.contacts-link:focus {
+  color: var(--secondary-title-color);
+}
+
+.nav-link {
+  color: var(--title-color);
+  font-family: Roboto;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  text-decoration: none;
+}
+
+.nav-link:active {
+  color: var(--secondary-title-color);
+}
+
+.nav-link.current {
+  color: var(--secondary-title-color);
+}
+.logo-primary {
+  color: var(--logo-color);
+}
+.logo-header {
+  color: var(--secondary-title-color);
+}
+.logo,
+.logo-primary {
+  font-family: Raleway;
+  font-weight: 400;
+  font-size: 26px;
+  line-height: 31px;
+  text-decoration: none;
+}
+
+/* Стилізація мейну */
+.hero-title {
+  color: var(--hero-color);
+  background-color: var(--background-color);
+  font-family: Roboto;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 60px;
+  text-align: center;
+}
+
+.hero-btn {
+  color: var(--hero-color);
+  background-color: var(--secondary-title-color);
+  font-family: Roboto;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 30px;
+  text-align: center;
+}
+
+.pros-title {
+  color: var(--title-color);
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-align: left;
+  text-transform: uppercase;
+}
+
+.pros-text {
+  color: var(--primary-color);
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  text-align: left;
+}
+
+.work-title,
+.team-title {
+  color: var(--title-color);
+  font-family: Roboto;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 42px;
+  letter-spacing: 0.03em;
+  text-align: center;
+}
+
+.staff-title {
+  color: var(--title-color);
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 19px;
+  letter-spacing: 0.03em;
+}
+
+.staff-position {
+  color: var(--primary-color);
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19px;
+  letter-spacing: 0.03em;
+}
+
+/* Футер */
+.logo,
+.logo-secondary {
+  font-family: Raleway;
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 31px;
+  letter-spacing: 0.03em;
+  text-align: left;
+  text-decoration: none;
+  background-color: #2f303a;
+}
+
+.logo-secondary {
+  color: var(--hero-color);
+}
+
+.footer,
+.section-hero {
+  background-color: var(--background-color);
+}
+
+.address-link {
+  color: var(--hero-color);
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  text-align: left;
+}
+
+.footer-link {
+  color: #ffffff99;
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  text-align: left;
+}
